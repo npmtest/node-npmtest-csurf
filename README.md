@@ -1,7 +1,7 @@
 # test coverage for  [csurf (v1.9.0)](https://github.com/expressjs/csurf)  [![npm package](https://img.shields.io/npm/v/npmtest-csurf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-csurf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-csurf.svg)](https://travis-ci.org/npmtest/node-npmtest-csurf)
 #### CSRF token middleware
 
-[![NPM](https://nodei.co/npm/csurf.png?downloads=true)](https://www.npmjs.com/package/csurf)
+[![NPM](https://nodei.co/npm/csurf.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/csurf)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-csurf/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,11 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-csurf/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-csurf/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-csurf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-csurf/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-csurf/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-csurf/build/coverage.html/index.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-csurf/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-csurf/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-csurf/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-csurf%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-csurf/build/test-report.html)
+[![test-report](https://npmtest.github.io/node-npmtest-csurf/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-csurf/build/test-report.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-csurf/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-csurf%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-csurf/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-csurf/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-csurf/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-csurf/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +28,6 @@
 {
     "author": {
         "name": "Jonathan Ong",
-        "email": "me@jongleberry.com",
         "url": "http://jongleberry.com"
     },
     "bugs": {
@@ -36,8 +35,7 @@
     },
     "contributors": [
         {
-            "name": "Douglas Christopher Wilson",
-            "email": "doug@somethingdoug.com"
+            "name": "Douglas Christopher Wilson"
         }
     ],
     "dependencies": {
@@ -84,33 +82,26 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "defunctzombie",
-            "email": "shtylman@gmail.com"
+            "name": "defunctzombie"
         },
         {
-            "name": "dougwilson",
-            "email": "doug@somethingdoug.com"
+            "name": "dougwilson"
         },
         {
-            "name": "fishrock123",
-            "email": "fishrock123@rocketmail.com"
+            "name": "fishrock123"
         },
         {
-            "name": "jongleberry",
-            "email": "jonathanrichardong@gmail.com"
+            "name": "jongleberry"
         },
         {
-            "name": "mscdex",
-            "email": "mscdex@mscdex.net"
+            "name": "mscdex"
         },
         {
-            "name": "tjholowaychuk",
-            "email": "tj@vision-media.ca"
+            "name": "tjholowaychuk"
         }
     ],
     "name": "csurf",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/expressjs/csurf.git"
