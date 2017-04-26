@@ -1,6 +1,6 @@
 # npmtest-csurf
 
-#### test coverage for  [csurf (v1.9.0)](https://github.com/expressjs/csurf)  [![npm package](https://img.shields.io/npm/v/npmtest-csurf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-csurf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-csurf.svg)](https://travis-ci.org/npmtest/node-npmtest-csurf)
+#### basic test coverage for  [csurf (v1.9.0)](https://github.com/expressjs/csurf)  [![npm package](https://img.shields.io/npm/v/npmtest-csurf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-csurf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-csurf.svg)](https://travis-ci.org/npmtest/node-npmtest-csurf)
 
 #### CSRF token middleware
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-csurf/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-csurf/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-csurf/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-csurf/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-csurf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-csurf/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-csurf/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-csurf/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-csurf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-csurf/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-csurf/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-csurf/build/coverage.html/index.html)
 
@@ -121,7 +121,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --reporter dot test/",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks --reporter spec test/"
     },
-    "version": "1.9.0"
+    "version": "1.9.0",
+    "bin": {}
 }
 ```
 
